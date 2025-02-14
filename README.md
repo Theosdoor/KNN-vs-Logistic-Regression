@@ -11,3 +11,7 @@ A k-nearest neighbors (KNN) model serves as a baseline, but a logistic regressio
 ### Results
 Although KNN can perform well with proper preprocessing and tuning, LR generally outperforms KNN and is less likely to overfit. In cases where the dataset is large or imbalanced, LR’s ability to generalize is advantageous. Addressing dataset size and imbalance is crucial for future improvements.
 
+This project builds on the approach of using data mining to predict student performance[^1], using the same dataset (from the UCI Machine Learning Repository[^2]).
+
+[^1]: Cortez, P. & Gonçalves Silva, A. M. (2008). *Using data mining to predict secondary school student performance*.
+[^2]: Cortez, P. (2014). *Student Performance*. UCI Machine Learning Repository. [Online]. DOI: [https://doi.org/10.24432/C5TG7T](https://doi.org/10.24432/C5TG7T)
