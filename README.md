@@ -20,11 +20,16 @@ It is predicted to be in class 1 if it is more likely than a certain threshold (
 
 
 
+Hyperparameter tuning was achieved using k-fold cross-validation and an exhaustive grid search.
+
 ### Results
 Although KNN can perform well with proper preprocessing and tuning, LR generally outperforms KNN and is less likely to overfit. In cases where the dataset is large or imbalanced, LR’s ability to generalize is advantageous. The small dataset size and imbalance were the most limiting factors on the performance, so these must be tackled for future improvements.
 
 ### References
 This project builds on the approach of using data mining to predict student performance[^1], using the same dataset (from the UCI Machine Learning Repository[^2]).
 
+_scikit-learn_[^3] was used for implementation.
+
 [^1]: Cortez, P. & Gonçalves Silva, A. M. (2008). *Using data mining to predict secondary school student performance*.
 [^2]: Cortez, P. (2014). *Student Performance*. UCI Machine Learning Repository. [Online]. DOI: [https://doi.org/10.24432/C5TG7T](https://doi.org/10.24432/C5TG7T)
+[^3]: F. Pedregosa et al., “Scikit-learn: Machine learning in Python,” Journal of Machine Learning Research, vol. 12, pp. 2825–2830, 2011
